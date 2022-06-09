@@ -5,6 +5,8 @@ thejson={"id": "362", "readings": [{"timestamp": "2021-09-29T16:08:15+01:00", "c
                                    {"timestamp": "2021-10-29T16:08:15+01:00", "count": 12},
                                    {"timestamp": "2021-09-29T16:09:15+01:00", "count": 15},
                                    {"timestamp": "2021-09-29T16:09:15+01:00", "count": "15"},
+                                   {"timestamp": 879, "count": "15"},
+                                   {"test": "2021-09-29T16:09:15+01:00", "count": "15"},
                                    {"timestamp": "2021-09-29T16:09:15+01:00", "count": "3"}]}
 tst=requests.post(url, json=thejson)
 print(tst.text)
