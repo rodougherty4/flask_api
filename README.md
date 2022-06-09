@@ -1,8 +1,16 @@
 # Device reading API
 
 Instructions on how to start up your application 
+requirements :
+1. Docker installed
+2. python installed
+3. git installed
 
-docker run -d -p 5000:5000 python-docker
+run the following in terminal:
+
+docker build -t reading_api:latest .
+
+docker run -d -p 1234:1234 reading_api:latest
 
 
 List the HTTP endpoints exposed by your application and any required parameters
